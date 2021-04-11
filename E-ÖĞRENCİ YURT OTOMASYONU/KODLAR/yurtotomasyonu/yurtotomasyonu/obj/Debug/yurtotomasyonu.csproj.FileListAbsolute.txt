@@ -153,3 +153,7 @@ C:\Users\aslınur\Desktop\veri tabanı uygulamaları\E-ÖĞRENCİ YURT OTOMASYON
 C:\Users\aslınur\Desktop\veri tabanı uygulamaları\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\obj\Debug\yurtotomasyonu.csproj.ResolveComReference.cache
 C:\Users\aslınur\Desktop\veri tabanı uygulamaları\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\obj\Debug\yurtotomasyonu.exe
 C:\Users\aslınur\Desktop\veri tabanı uygulamaları\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\obj\Debug\yurtotomasyonu.pdb
+C:\Users\aslınur\Documents\GitHub\veri_tabani_uygulamalari-e-ogrenci_yurt_otomasyonu\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\bin\Debug\yurtotomasyonu.exe.config
+C:\Users\aslınur\Documents\GitHub\veri_tabani_uygulamalari-e-ogrenci_yurt_otomasyonu\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\obj\Debug\yurtotomasyonu.csproj.ResolveComReference.cache
+C:\Users\aslınur\Documents\GitHub\veri_tabani_uygulamalari-e-ogrenci_yurt_otomasyonu\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\obj\Debug\yurtotomasyonu.exe
+C:\Users\aslınur\Documents\GitHub\veri_tabani_uygulamalari-e-ogrenci_yurt_otomasyonu\E-ÖĞRENCİ YURT OTOMASYONU\KODLAR\yurtotomasyonu\yurtotomasyonu\obj\Debug\yurtotomasyonu.pdb
