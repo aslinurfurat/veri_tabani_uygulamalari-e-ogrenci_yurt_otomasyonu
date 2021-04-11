@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E5649DF7-795E-4D5C-8A91-71B4EFC10D44}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>yurtotomasyonu</RootNamespace>
+    <AssemblyName>yurtotomasyonu</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Anasayfa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Anasayfa.Designer.cs">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ucret_Bilgisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ucret_Bilgisi.Designer.cs">
+      <DependentUpon>Ucret_Bilgisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="girispaneli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="girispaneli.Designer.cs">
+      <DependentUpon>girispaneli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Izinler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izinler.Designer.cs">
+      <DependentUpon>Izinler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Katlardaki_Odalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Katlardaki_Odalar.Designer.cs">
+      <DependentUpon>Katlardaki_Odalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kayit_İslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kayit_İslemleri.Designer.cs">
+      <DependentUpon>Kayit_İslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odalar.Designer.cs">
+      <DependentUpon>Odalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Odalardaki_Yataklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Odalardaki_Yataklar.Designer.cs">
+      <DependentUpon>Odalardaki_Yataklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci_Guncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ogrenci_Guncelle.Designer.cs">
+      <DependentUpon>Ogrenci_Guncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ogrenci_İslemleri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ogrenci_İslemleri.Designer.cs">
+      <DependentUpon>Ogrenci_İslemleri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel.Designer.cs">
+      <DependentUpon>Personel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Yonetici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yonetici.Designer.cs">
+      <DependentUpon>Yonetici.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Anasayfa.resx">
+      <DependentUpon>Anasayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ucret_Bilgisi.resx">
+      <DependentUpon>Ucret_Bilgisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="girispaneli.resx">
+      <DependentUpon>girispaneli.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izinler.resx">
+      <DependentUpon>Izinler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Katlardaki_Odalar.resx">
+      <DependentUpon>Katlardaki_Odalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayit_İslemleri.resx">
+      <DependentUpon>Kayit_İslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Odalar.resx">
+      <DependentUpon>Odalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Odalardaki_Yataklar.resx">
+      <DependentUpon>Odalardaki_Yataklar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ogrenci_Guncelle.resx">
+      <DependentUpon>Ogrenci_Guncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ogrenci_İslemleri.resx">
+      <DependentUpon>Ogrenci_İslemleri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel.resx">
+      <DependentUpon>Personel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Yonetici.resx">
+      <DependentUpon>Yonetici.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nurse_call_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\456.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\safe_99pxx.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
